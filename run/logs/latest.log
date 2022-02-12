@@ -1,0 +1,150 @@
+[12Feb.2022 09:09:52.871] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.18, --assetsDir, /home/oliver/.gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 39.0.75, --fml.mcVersion, 1.18.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20211210.034407]
+[12Feb.2022 09:09:52.874] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.0+9.1.0+main.6690ee51 starting: java version 17.0.2 by Oracle Corporation
+[12Feb.2022 09:09:52.984] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/oliver/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%2327!/ Service=ModLauncher Env=CLIENT
+[12Feb.2022 09:09:53.030] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /home/oliver/Dokumente/Repositories/minecraft_modding/run/config/fml.toml is not correct. Correcting
+[12Feb.2022 09:09:53.037] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
+[12Feb.2022 09:09:53.038] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [maxThreads] was corrected from null to -1
+[12Feb.2022 09:09:55.564] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, /home/oliver/.gradle/caches/forge_gradle/assets, --assetIndex, 1.18]
+[09:10:01] [Render thread/WARN]: Assets URL 'union:/home/oliver/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.1-39.0.75_mapped_official_1.18.1/forge-1.18.1-39.0.75_mapped_official_1.18.1-recomp.jar%2377!/assets/.mcassetsroot' uses unexpected schema
+[09:10:01] [Render thread/WARN]: Assets URL 'union:/home/oliver/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.1-39.0.75_mapped_official_1.18.1/forge-1.18.1-39.0.75_mapped_official_1.18.1-recomp.jar%2377!/data/.mcassetsroot' uses unexpected schema
+[12Feb.2022 09:10:01.823] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:10:01] [Render thread/INFO]: Setting user: Dev
+[09:10:01] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 SNAPSHOT
+[09:10:02] [Render thread/ERROR]: Null comment for config option server, this is invalid and may be disallowed in the future.
+[09:10:03] [modloading-worker-0/INFO]: Forge mod loading, version 39.0.75, for MC 1.18.1 with MCP 20211210.034407
+[09:10:03] [modloading-worker-0/INFO]: MinecraftForge v39.0.75 Initialized
+[09:10:03] [Render thread/INFO]: HELLO from Register Block
+[12Feb.2022 09:10:05.624] [Render thread/INFO] [com.mojang.text2speech.NarratorLinux/]: Narrator library successfully loaded
+[09:10:05] [Render thread/INFO]: Reloading ResourceManager: Default, Mod Resources
+[09:10:05] [modloading-worker-0/WARN]: Configuration file /home/oliver/Dokumente/Repositories/minecraft_modding/run/config/theoneprobe-client.toml is not correct. Correcting
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key renderBlacklist was corrected from null to its default, []. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key timeout was corrected from null to its default, 300. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key waitingForServerTimeout was corrected from null to its default, 2000. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key maxPacketToServer was corrected from null to its default, 20000. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key probeDistance was corrected from null to its default, 6.0. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key showModName was corrected from null to its default, NORMAL. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key showHarvestLevel was corrected from null to its default, NORMAL. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key showCanBeHarvested was corrected from null to its default, NORMAL. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key showCropPercentage was corrected from null to its default, NORMAL. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key showChestContents was corrected from null to its default, EXTENDED. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key showChestContentsDetailed was corrected from null to its default, EXTENDED. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key showRedstone was corrected from null to its default, NORMAL. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key showMobHealth was corrected from null to its default, NORMAL. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key showMobGrowth was corrected from null to its default, NORMAL. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key showMobPotionEffects was corrected from null to its default, EXTENDED. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key showLeverSetting was corrected from null to its default, NORMAL. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key showTankSetting was corrected from null to its default, EXTENDED. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key showBrewStandSetting was corrected from null to its default, NORMAL. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key showMobSpawnerSetting was corrected from null to its default, NORMAL. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key showAnimalOwnerSetting was corrected from null to its default, EXTENDED. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key showHorseStatSetting was corrected from null to its default, EXTENDED. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key showSilverfish was corrected from null to its default, NOT. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key boxLeftX was corrected from null to its default, 5. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key boxRightX was corrected from null to its default, -1. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key boxTopY was corrected from null to its default, 5. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key boxBottomY was corrected from null to its default, -1. 
+[09:10:05] [modloading-worker-0/WARN]: Incorrect key boxBorderColor was corrected from null to its default, ff999999. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key boxFillColor was corrected from null to its default, 55006699. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key boxThickness was corrected from null to its default, 2. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key boxOffset was corrected from null to its default, 0. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key showLiquids was corrected from null to its default, false. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key isVisible was corrected from null to its default, true. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key holdKeyToMakeVisible was corrected from null to its default, false. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key tooltipScale was corrected from null to its default, 1.0. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key chestContentsBorderColor was corrected from null to its default, ff006699. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key showBreakProgress was corrected from null to its default, 1. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key harvestStyleVanilla was corrected from null to its default, true. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key style was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key style.Name was corrected from null to its default, white. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key style.ModName was corrected from null to its default, blue,italic. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key style.Error was corrected from null to its default, red,bold. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key style.Progress was corrected from null to its default, white. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key style.Label was corrected from null to its default, gray. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key style.Info was corrected from null to its default, white. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key style.Ok was corrected from null to its default, green. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key style.High was corrected from null to its default, gold. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key style.InfoImportant was corrected from null to its default, blue. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key style.Obsolete was corrected from null to its default, gray,strikethrough. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key style.Warning was corrected from null to its default, yellow. 
+[09:10:06] [Thread-0/FATAL]: theoneprobe config just got changed on the file system!
+[09:10:06] [Thread-0/FATAL]: theoneprobe config just got changed on the file system!
+[09:10:06] [modloading-worker-0/WARN]: Configuration file /home/oliver/Dokumente/Repositories/minecraft_modding/run/config/jei-client.toml is not correct. Correcting
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key advanced was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key advanced.DebugMode was corrected from null to its default, false. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key advanced.CenterSearch was corrected from null to its default, false. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key advanced.LowMemorySlowSearchEnabled was corrected from null to its default, false. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key advanced.GiveMode was corrected from null to its default, MOUSE_PICKUP. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key advanced.MaxColumns was corrected from null to its default, 9. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key advanced.RecipeGuiHeight was corrected from null to its default, 350. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key colors was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key colors.SearchColors was corrected from null to its default, [White:EEEEEE, LightBlue:7492cc, Cyan:00EEEE, Blue:2222dd, LapisBlue:25418b, Teal:008080, Yellow:cacb58, GoldenYellow:EED700, Orange:d97634, Pink:D1899D, HotPink:FC0FC0, Magenta:b24bbb, Purple:813eb9, JadedPurple:43324f, EvilPurple:2e1649, Lavender:B57EDC, Indigo:480082, Sand:dbd3a0, Tan:bb9b63, LightBrown:A0522D, Brown:634b33, DarkBrown:3a2d13, LimeGreen:43b239, SlimeGreen:83cb73, Green:008000, DarkGreen:224d22, GrassGreen:548049, Red:963430, BrickRed:b0604b, NetherBrick:2a1516, Redstone:ce3e36, Black:181515, CharcoalGray:464646, IronGray:646464, Gray:808080, Silver:C0C0C0]. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key sorting was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key sorting.IngredientSortStages was corrected from null to its default, [MOD_NAME, INGREDIENT_TYPE, CREATIVE_MENU, ALPHABETICAL, WEAPON_DAMAGE, TOOL_TYPE, ARMOR, TAG]. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key search was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key search.ModNameSearchMode was corrected from null to its default, REQUIRE_PREFIX. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key search.TooltipSearchMode was corrected from null to its default, ENABLED. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key search.TagSearchMode was corrected from null to its default, REQUIRE_PREFIX. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key search.CreativeTabSearchMode was corrected from null to its default, DISABLED. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key search.ColorSearchMode was corrected from null to its default, DISABLED. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key search.ResourceIdSearchMode was corrected from null to its default, DISABLED. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key search.SearchAdvancedTooltips was corrected from null to its default, false. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key modname was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key modname.ModNameFormat was corrected from null to its default, blue italic. 
+[09:10:06] [modloading-worker-0/WARN]: Configuration file /home/oliver/Dokumente/Repositories/minecraft_modding/run/config/forge-client.toml is not correct. Correcting
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key client.alwaysSetupTerrainOffThread was corrected from null to its default, false. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key client.experimentalForgeLightPipelineEnabled was corrected from null to its default, false. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key client.showLoadWarnings was corrected from null to its default, true. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key client.useCombinedDepthStencilAttachment was corrected from null to its default, false. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key client.forceSystemNanoTime was corrected from null to its default, false. 
+[09:10:06] [modloading-worker-0/WARN]: Configuration file /home/oliver/Dokumente/Repositories/minecraft_modding/run/config/theoneprobe-common.toml is not correct. Correcting
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key loggingThrowableTimeout was corrected from null to its default, 20000. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key needsProbe was corrected from null to its default, 3. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key extendedInMain was corrected from null to its default, false. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key supportBaubles was corrected from null to its default, true. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key spawnNote was corrected from null to its default, true. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key showCollarColor was corrected from null to its default, true. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key showRF was corrected from null to its default, 1. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key showTank was corrected from null to its default, 1. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key rfFormat was corrected from null to its default, COMPACT. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key tankFormat was corrected from null to its default, COMPACT. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key showDebugInfo was corrected from null to its default, true. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key compactEqualStacks was corrected from null to its default, true. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key rfbarFilledColor was corrected from null to its default, ffdd0000. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key rfbarAlternateFilledColor was corrected from null to its default, ff430000. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key rfbarBorderColor was corrected from null to its default, ff555555. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key tankbarFilledColor was corrected from null to its default, ff0000dd. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key tankbarAlternateFilledColor was corrected from null to its default, ff000043. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key tankbarBorderColor was corrected from null to its default, ff555555. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key showItemDetailThresshold was corrected from null to its default, 4. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key showSmallChestContentsWithoutSneaking was corrected from null to its default, 0. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key showContentsWithoutSneaking was corrected from null to its default, [storagedrawers:basicdrawers, storagedrawersextra:extra_drawers]. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key dontShowContentsUnlessSneaking was corrected from null to its default, []. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key dontSendNBT was corrected from null to its default, []. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key tooltypeTags was corrected from null to its default, [minecraft:mineable/axe=Axe, minecraft:mineable/pickaxe=Pickaxe, minecraft:mineable/shovel=Shovel, minecraft:mineable/hoe=Hoe]. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key harvestabilityTags was corrected from null to its default, [forge:needs_wood_tool=Wood, forge:needs_gold_tool=Gold, minecraft:needs_stone_tool=Stone, minecraft:needs_iron_tool=Iron, minecraft:needs_diamond_tool=Diamond, forge:needs_netherite_tool=Netherite]. 
+[09:10:06] [Thread-0/FATAL]: theoneprobe config just got changed on the file system!
+[09:10:06] [modloading-worker-0/WARN]: Configuration file /home/oliver/Dokumente/Repositories/minecraft_modding/run/config/forge-common.toml is not correct. Correcting
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09:10:06] [modloading-worker-0/WARN]: Incorrect key general.defaultWorldType was corrected from null to its default, default. 
+[09:10:06] [Worker-Main-15/INFO]: HELLO FROM PREINIT
+[09:10:06] [Worker-Main-15/INFO]: DIRT BLOCK >> minecraft:dirt
+[12Feb.2022 09:10:06.896] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[12Feb.2022 09:10:08.202] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 39.0.75 Target: 39.0.75
+[09:10:17] [Worker-Main-8/INFO]: Hello world from the MDK
+[09:10:17] [Worker-Main-8/INFO]: Got IMC [Hello world]
+[09:10:21] [Render thread/INFO]: OpenAL initialized on device Eingebautes Tongerät Analog Stereo
+[09:10:21] [Render thread/INFO]: Sound engine started
+[09:10:22] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[09:10:22] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[09:10:22] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[09:10:22] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[09:10:22] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[09:10:22] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[09:10:22] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[09:10:26] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[09:10:26] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[09:10:26] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[09:10:26] [Render thread/INFO]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[09:10:27] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[09:11:05] [Render thread/INFO]: Stopping!
